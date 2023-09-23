@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "rdsmon"
+version = "0.1.0"
+description = "python CLI for monitoring metrics of amazon RDS instances"
+authors = ["symonk <jackofspaces@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+boto3 = "^1.28.53"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+tox = "^4.11.3"
+pre-commit = "^3.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
