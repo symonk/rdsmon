@@ -54,7 +54,7 @@ def _run_command(command: typing.Tuple[str, ...]) -> int:
     :param command: Command to run.
     :return:
     """
-    return subprocess.run(command, stdout=sys.stdout, stderr=subprocess.STDOUT).returncode
+    return subprocess.run(command, stdout=sys.stdout, stderr=subprocess.STDOUT, check=False).returncode
 
 
 if __name__ == "__main__":

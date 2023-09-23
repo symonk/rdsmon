@@ -1,0 +1,1 @@
+CLOUD_WATCH_SERVICE_NAME = "cloudwatch"
