@@ -7,7 +7,7 @@ license = "Apache 2.0"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.8"
 boto3 = "^1.28.53"
 loguru = "^0.7.2"
 
@@ -15,6 +15,13 @@ loguru = "^0.7.2"
 pytest = "^7.4.2"
 tox = "^4.11.3"
 pre-commit = "^3.4.0"
+coverage = "^7.3.1"
+mkdocs = "^1.5.3"
+mkdocs-material = "^9.4.1"
+mkdocstrings = "^0.23.0"
+mkdocstrings-python = "^1.7.0"
+codecov = "^2.1.13"
+towncrier = "^23.6.0"
 
 [build-system]
 requires = ["poetry-core"]
@@ -66,3 +73,11 @@ max-line-length = 120
 disable = """
     missing-module-docstring
 """
+
+[tool.towncrier]
+directory = "changlog"
+filename = "CHANGELOG.rst"
+version = "21.9.0"
+name = "rdsmon"
+underlines = "=-~"
+all_bullets = true
