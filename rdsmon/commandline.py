@@ -15,4 +15,12 @@ def parse_command_line_flags() -> Configuration:
         required=True,
         help="The region to look up rds instances within",
     )
+    parser.add_argument(
+        "--period",
+        "-p",
+        action="store",
+        type=int,
+        help="The period in (seconds) which to query metrics for, defaulting to 1 minute",
+        default=60,
+    )
     return Configuration(**vars(parser.parse_args()))
