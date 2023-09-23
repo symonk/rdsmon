@@ -26,6 +26,7 @@ minimal permissions as possible.  The `IAM` capabilities required by the tool ar
  To better understand IAM user and policies, please refer to:
 
  [AWS IAM user creation](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html#id_users_create_console)
+ 
  [AWS Access Tokens](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey)
 
 
