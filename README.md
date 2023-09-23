@@ -56,3 +56,24 @@ region=us-east-1
 -----
 
 ## Monitoring an RDS instance
+
+Todo
+
+-----
+
+## Contributing to rdsmon
+
+Ensure you have `python3.11+` installed and `poetry`:
+
+ * git clone https://github.com/symonk/rdsmon
+ * cd rdsmon
+ * poetry shell
+ * poetry install
+
+This will create an `editable` install, you can point your `IDE` to the virtualenv output by `poetry shell` and begin contributing.
+
+Linting the code is done via `tox -e linting`, additionally `pre-commit install` will run the linter before committing automatically.
+
+`tox -e py311` will run all tests against `python3.11`
+
+-----
