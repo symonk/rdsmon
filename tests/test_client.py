@@ -1,3 +1,4 @@
+from rdsmon import Client
 
 def test_client():
-    assert True
+    assert Client() is not None
