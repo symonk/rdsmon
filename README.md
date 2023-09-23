@@ -1,4 +1,5 @@
-<img src="github/images/logo.png width="250" height="250">
+<img src=".github/images/logo.png" width="250" height="200" />
+
 # rdsmon
 commandline tool for monitoring aws RDS instances
 
