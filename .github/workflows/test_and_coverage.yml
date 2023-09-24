@@ -36,7 +36,7 @@ jobs:
             python: "3.10"
             os: ubuntu-20.04
             tox_env: "py310"
-            do_cov: false  # make this true later when repo secrets are setup for publishing.
+            do_cov: true 
           - name: "windows-py38"
             python: "3.8"
             os: windows-latest
