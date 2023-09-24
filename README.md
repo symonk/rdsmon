@@ -1,5 +1,9 @@
 <img src=".github/images/logo.png" width="200" height="200" />
 
+![version](https://img.shields.io/pypi/v/rdsmon?color=%2342f54b&label=rdsmon&style=flat-square)
+[![codecov](https://codecov.io/gh/symonk/rdsmon/branch/main/graph/badge.svg)](https://codecov.io/gh/symonk/rdsmon)
+[![docs](https://img.shields.io/badge/documentation-online-brightgreen.svg)](https://symonk.github.io/rdsmon/)
+
 # rdsmon
 commandline tool for monitoring aws RDS instances
 
