@@ -65,10 +65,12 @@ Todo
 
 Ensure you have `python3.11+` installed and `poetry`:
 
- * git clone https://github.com/symonk/rdsmon
- * cd rdsmon
- * poetry shell
- * poetry install
+```console
+git clone https://github.com/symonk/rdsmon
+cd rdsmon
+poetry shell
+poetry install
+ ```
 
 This will create an `editable` install, you can point your `IDE` to the virtualenv output by `poetry shell` and begin contributing.
 
