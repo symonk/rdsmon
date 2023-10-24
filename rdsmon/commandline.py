@@ -23,4 +23,5 @@ def parse_command_line_flags() -> Configuration:
         help="The period in (seconds) which to query metrics for, defaulting to 1 minute",
         default=60,
     )
+    parser.add_argument("--config", "-c", action="store", require=True, help="The YAML file for which metrics to track")
     return Configuration(**vars(parser.parse_args()))
